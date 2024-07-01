@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin = "anonymous">
+
+    <!-- Fichier bootstrap personnalisé -->
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <h1>Hello World !</h1>
+
+    <div class="container">
+        <!-- Répartition colonnes exemple 1 -->
+        <div class="row">
+            <div class="col-1">Col 1</div>
+            <div class="col-1">Col 2</div>
+            <div class="col-1">Col 3</div>
+            <div class="col-1">Col 4</div>
+            <div class="col-1">Col 5</div>
+            <div class="col-1">Col 6</div>
+            <div class="col-1">Col 7</div>
+            <div class="col-1">Col 8</div>
+            <div class="col-1">Col 9</div>
+            <div class="col-1">Col 10</div>
+            <div class="col-1">Col 11</div>
+            <div class="col-1">Col 12</div>
+        </div>
+        <!-- Répartition colonnes exemple 2 -->
+        <div class="row">
+            <div class="col-1">Col 1</div>
+            <div class="col-4">Col 2</div>
+            <div class="col-2">Col 3</div>
+            <div class="col-2">Col 4</div>
+            <div class="col-3">Col 5</div>
+        </div>
+        <!-- Offset pour espacer les colonnes -->
+        <div class="row">
+            <div class="col-md-4">Col col-md-4</div>
+            <div class="col-md-4 offset-md-4">Col col-md-4 offset-md-4</div>
+        </div>
+        <!-- Forcer marge auto pour espacer les colonnes -->
+        <div class="row">
+            <div class="col-md-4">Col col-md-4</div>
+            <div class="col-md-4 ms-auto">Col col-md-4 ms-auto</div>
+        </div>
+        <!-- Forcer marge auto à droite d'une colonne pour espacer les colonnes -->
+        <div class="row">
+            <div class="col-md-4 me-auto">Col col-md-4 me-auto</div>
+            <div class="col-md-4">Col col-md-4</div>
+        </div>
+        <!-- Force le retour à la ligne dans une même ligne -->
+        <div class="row">
+            <div class="col-6 sm-4">col-6 sm-4</div>
+            <div class="col-6 sm-4">col-6 sm-4</div>
+            <div class="w-100 d-none d-md-block"></div>
+            <div class="col-6 sm-4">col-6 sm-4</div>
+            <div class="col-6 sm-4">col-6 sm-4</div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #CC0000;
+}
+
+h1{
+    font-size: 17px;
+    margin: 0;
+}
+
+h1{
+    color: red;
+}
+em {
+    color: blue;
+}
+div em{
+    color: red;
+}
+
+.rouge{
+    color: red;
+}

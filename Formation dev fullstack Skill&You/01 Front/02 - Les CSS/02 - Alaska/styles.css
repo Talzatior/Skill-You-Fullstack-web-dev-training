@@ -1,0 +1,75 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style général */
+body{
+    background-color: #ededed;
+    color: #5f5f5f;
+    font-family: arial, verdana, sans-serif;
+}
+
+/* Titre - En-tête */
+h1{
+    background-color: #AA00AA;
+    color: #ededed;
+    font-size: 48px;
+    margin-bottom: 15px;
+    padding: 120px 0 10px 40px;
+}
+
+/* Sous-titre */
+h2{
+    border-bottom: 1px solid;
+    color: #AA00AA;
+    font-size: 36px;
+    margin: 30px 0;
+    padding: 0 10px;
+}
+
+/* Autres titres */
+h3{
+    color: #AA00AA;
+    font-size: 24px;
+    margin: 25px 0 10px;
+}
+h4{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Rationalisation */
+h1, h3, h4, p, img{
+    padding-left: 40px;
+}
+
+/* Introduction */
+.intro{
+    color: #AA00AA;
+    padding: 10px 0 10px 40px;
+}
+
+/* Liste */
+ul{
+    background-color: #ddd;
+    border: 1px solid;
+    margin: 5px 0 15px 40px;
+    padding: 10px 25px;
+    width: 220px;
+}
+li{
+    font-size: 12px;
+    padding-left: 10px;
+    list-style-type: square;
+}
+
+/* Liens */
+a{
+    color: #FF0000;
+    text-decoration: none;
+}
+a:hover{
+    color: #CCC;
+}
