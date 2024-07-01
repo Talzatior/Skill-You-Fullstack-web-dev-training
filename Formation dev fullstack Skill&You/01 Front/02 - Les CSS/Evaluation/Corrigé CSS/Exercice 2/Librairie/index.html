@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<Head>
+    <title>Accueil</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<!-- NOTE : certains contenus devaient être décalés de 50px, pour se faire vous auriez pu utiliser une class avec un padding de 50px à gauche et l'affecter sur les éléments souhaités. 
+ => nous aurions également pu englober tout le contenu sous l'image de bandeau et jusqu'au footer avec une <div> et affecter cette class dessus -->
+<body>
+    <img src="image/logo.gif" alt="logo" width="200" height="84">
+    <h1>Librairie L'indépendante</h1>
+    <ul>
+        <!-- NOTE : un peu de padding manquant pour éviter que les contenus ne soient collés aux bords -->
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li><a href="Info-pratiques.html">information-pratique</a></li>
+        <li><a href="Evenements.html">Evénements</a></li>
+        <li><a href="Coupsdecoeur.html">Nos coups de coeur</a></li>
+    </ul>
+    <img src="image/bandeau.jpg" alt="bandeau" width="794" height="150">
+    <h2><em>L'indépendante</em> : libre et joyeuse</h2>
+    <p>La librairie L'indépendante vous accueille tous les jours pour vous offrir le meilleur des livres. Littérature,
+        polars, poésie, philosophie, BD pour tous les âges et toutes les bourses. Venez découvrir notre espace
+        tentaculaires, nos rayonnages multiformes et nos libraires joyeux.</p>
+    <h2>Prochain évènement</h2>
+    <p><strong>Lecture post-mortem de <em>L'Odyssée</em> par Homère</strong><br>
+        Homère nous fera le plaisir de nous lire l'introduction de son immense poème épique, le dernier vendredi de ce
+        mois.</p>
+    <!-- NOTE : le lien pouvait s'ajouter dans le <p> précédent directement, le retour à la ligne dans un texte se faisant avec <br>-->
+    <a href="Evenements.html" class="lien">>>> En savoir plus</a>
+    <h2>Lecture du soir</h2>
+    <p>Cette semaine, votre libraire vous invite à lire un aphorisme de Nietzsche au moment du coucher.</p>
+    <a href="Coupsdecoeur.html" class="lien">>>> En savoir plus</a>
+    <footer>
+        <!-- NOTE : utilisez un <p> pour englober une phrase, aucun lien n'était souhaité  --> <a href="info-pratiques.html" class="lien">Librairie l'indépendante - 26, allée du Sphinx - 45020
+            Tournepioche</a> </footer>
+</body>
+
+</html>
