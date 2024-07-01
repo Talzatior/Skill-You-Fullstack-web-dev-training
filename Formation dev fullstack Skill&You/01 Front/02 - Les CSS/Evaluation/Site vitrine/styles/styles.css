@@ -1,0 +1,123 @@
+/* Partie en-tête */
+.logo, h1, main {
+    margin-left: 50px;
+}
+
+h1{
+    font-size: 20px;
+    color: #A32;
+}
+
+/* Menu */
+.menu{
+    background-color: #A32;
+    padding: 10px 0;
+}
+
+.menu li{
+    border-bottom: 1px dashed #CCC;
+    list-style: none;
+    padding: 5px 0 5px 50px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #CCC;
+}
+
+.menu li a:hover{
+    color: #FFF;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAA;
+    color: #721717;
+    padding: 20px 0;
+}
+
+/* Propriétés générales des pages */
+h2, h3, p {
+    color: #000;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p, a{
+    font-size: 14px;    
+}
+
+a{
+    color: #A32;
+}
+
+a:hover {
+    color: #AAA;
+}
+
+article{
+    margin: 30px 0;
+}
+
+main{
+    padding: 30px 0;
+}
+
+/* Pages sauf accueil */
+section{
+    margin-bottom: 50px;
+}
+
+section p{
+    margin: 10px 0;
+}
+
+/* Page Informations pratiques */
+table{
+    width: 73%;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid #AA3322;
+}
+td{
+    text-align: center;
+}
+.plan{
+    margin: 0;
+}
+ img.plan {
+    margin-bottom: 10px;
+}
+
+/* Page Evènements */
+.img-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-container img{
+    border: 2px solid #CCC;
+}
+
+/* Page Coups de coeur */
+blockquote{
+    width: 450px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px dashed #AA3322;
+    background-color: #EDEDED;
+    color: #000;
+    font-size: 16px;
+}

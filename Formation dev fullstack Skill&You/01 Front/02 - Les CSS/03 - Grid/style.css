@@ -1,0 +1,39 @@
+/* .container{
+    display: grid;
+     grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 200px; 
+    grid-template: 100px 200px / 100px 100px 100px;
+}
+
+ Not necessary for the grid system 
+.item{
+    background-color: #0593be;
+    color: white;
+    padding: 1rem;
+} */
+
+/* Demo common styles */
+.demo{
+    color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    border-radius: 3px;
+}
+
+header.demo {
+    background-color: #6B5CA5;
+}
+
+aside.demo{
+    background-color: #52AA8A;
+}
+
+main.demo{
+    background-color: #F76C5E;
+}
+
+footer.demo{
+    background-color: #3AAED8;
+}
+
+/* GRID CSS */
+
