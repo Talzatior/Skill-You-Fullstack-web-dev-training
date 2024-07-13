@@ -1,0 +1,49 @@
+body{
+    color: #FFF;
+}
+header{
+    white-space: nowrap;
+}
+
+/* Sections */
+
+section{
+    border: solid 2px rgb(72, 72, 72);
+    border-radius: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(64, 61, 61, 0.857);
+}
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
+.w-55{
+    width: 55%;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.card{
+    border-radius: 20px!important;
+}
+
+/* Screen under 400px */
+@media only screen and (max-width: 400px){
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 16px;
+    }
+    nav p{
+        font-size: 14px;
+    }
+    .nav-link{
+        padding: .3rem;
+        font-size: .8rem;
+    }
+}
