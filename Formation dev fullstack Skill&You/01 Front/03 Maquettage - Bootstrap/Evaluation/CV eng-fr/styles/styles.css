@@ -27,8 +27,42 @@ section{
 .w-60{
     width: 60%;
 }
+.w-90{
+    width: 95%;
+}
 .card{
     border-radius: 20px!important;
+    padding: 0;
+}
+
+/* Skills */
+p.langues {
+    padding: 0;
+}
+
+/* Hobbies */
+.hobby-container{
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+.text-description{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(22, 20, 21, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hobby-container .text-description, .hobby-container .text-description{
+    opacity: 0;
+}
+.hobby-container:hover .text-description, .hobby-container:active .text-description{
+    opacity: 1;
+    
 }
 
 /* Screen under 400px */
