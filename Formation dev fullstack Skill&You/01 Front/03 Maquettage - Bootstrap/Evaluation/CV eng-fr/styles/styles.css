@@ -1,8 +1,15 @@
+html{
+    scroll-padding-top: 150px;
+}
 body{
     color: #FFF;
+    padding-top: 150px;
 }
 header{
     white-space: nowrap;
+}
+header nav{
+    background-color: #2a2e5b;
 }
 
 /* Sections */
@@ -62,8 +69,36 @@ p.langues {
 }
 .hobby-container:hover .text-description, .hobby-container:active .text-description{
     opacity: 1;
-    
 }
+
+/* Contact */
+.main-social .button{
+    width: 56px;
+    height: 56px;
+    float: left;
+    border-radius: 50px;
+    margin: 0 12px;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-social .button:hover{
+    width: 160px;
+}
+
+.button .s-icon{
+    width: 56px;
+    height: 56px;
+    transition: all 0.5s ease-in-out;
+}
+
+.button .s-icon i{
+    font-size: 24px;
+}
+
+.button span{
+    font-size: 18px;
+}
+
 
 /* Screen under 400px */
 @media only screen and (max-width: 400px){
