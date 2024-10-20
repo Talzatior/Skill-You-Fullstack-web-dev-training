@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body class="mx-3">
+    <header>
+        <!-- Barre de navigation responsive -->
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="container w-75 m-0">
+                    <h1>Pierre Christmann</h1>
+                    <p><strong>Junior fullstack web developer</strong></p>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-md-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-xl-0">
+                        <li class="nav-item"><a href="#aPropos" class="nav-link active">About me</a></li>
+                        <li class="nav-item"><a href="#competences" class="nav-link active">Skills</a></li>
+                        <li class="nav-item"><a href="#diplomes" class="nav-link active">Qualifications</a></li>
+                        <li class="nav-item"><a href="#experiences" class="nav-link active">Experiences</a></li>
+                        <li class="nav-item"><a href="#loisirs" class="nav-link active">Hobbies</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link active">Contact</a></li>
+                        <li class="nav-item"><a href="../index.html" class="nav-link active"><img src="../images/france.png" alt="drapeau français" width="20"></a></li>
+                        <li class="nav-item"><a href="./cv-eng.html" class="nav-link active"><img src="../images/anglais.png" alt="drapeau anglais" width="20"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Section A propos -->
+        <section class="container-fluid mb-4 px-3" id="aPropos">
+            <div class="row">
+                <h2 class="text-center my-4">About me</h2>
+            </div>
+            <div class="d-flex flex-column-reverse flex-md-row mb-3">    
+                <div class="container w-100 w-md-50 align-self-center">
+                    <p>I'm currently a fire security agent in a large company, and I've learnt how to prioritise what needs to be done. For the convenience of the team I'm part of, I wanted to develop an application to simplify a few tasks for us. That's where my passion for programming began!</p>
+                    <p>Since then, in my spare time, I've been training in languages that, I think, will have a future and that I like, such as JavaScript, Angular and Typescript. Having had the opportunity to create my school's website in 1996, I've also relearned HTML and learned CSS. </p>
+                    <p>I'm lucky enough to be able to take part in an Open Source project to create an Udemy-type web application, but with additional specifications, and we hope that the project will come to an end and work! The next step for the project is for me to train in .net so that I can also work on the back-end. Whenever I have a moment available, I either start learning or developing, because I find it very fulfilling. Since mid-June 2024, I've been focusing my free time on learning through a certification course at Skill&You.</p>
+                </div>
+                <div class="container w-100 w-md-50 align-self-center">
+                    <img src="../images/Web-Developer.jpg" alt="Développeur web" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section class="container-fluid mb-4 px-3" id="competences">
+            <div class="row">
+                <h2 class="text-center my-4">Competences</h2>
+            </div>
+            <div class="row">
+                <h3 class="mb-4">Development</h3>
+            </div>
+            <div class="row">
+                <div class="col-md text-white card border-primary bg-dark mb-3 mx-sm-2">
+                    <!-- Partie Expérimenté -->
+                    <span class="d-flex justify-content-center fs-4">Experienced</span>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">HTML 5</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-80 text-center bg-primary m-0">80%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">CSS 3</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-70 text-center bg-primary m-0">70%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">Bootstrap</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-70 text-center bg-primary m-0">70%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">PrimeNG</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-60 text-center bg-primary m-0">60%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">Leaflet</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-60 text-center bg-primary m-0">60%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Partie Intermédiaire -->
+                <div class="col-md text-white card border-primary bg-dark mb-3 mx-sm-2">
+                    <span class="d-flex justify-content-center fs-4">Intermediate</span>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">JavaScript</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-50 text-center bg-primary m-0">50%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">Angular</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-40 text-center bg-primary m-0">40%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">Git</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-40 text-center bg-primary m-0">40%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-4 d-flex">
+                                <p class="align-self-center my-2 fs-5">Tailwind</p>
+                            </div>
+                            <div class="col d-flex">
+                                <div class="container-fluid p-0 mx-0 my-2 border border-white bg-white align-self-center">
+                                    <p class="w-40 text-center bg-primary m-0">40%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Partie Notions -->
+                <div class="col-md-12 col-xl-4 text-white card border-primary bg-dark mb-3 mx-sm-2">
+                    <span class="d-flex justify-content-center fs-4">Notions</span>
+                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-md-evenly h-100 my-3">
+                        <ul>
+                            <li>PHP</li>
+                            <li>asp .net</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <ul>
+                            <li>Python</li>
+                            <li>Kotlin</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h3 class="my-4">Languages</h3>
+                <p class="my-3 fs-5">French is my mother tongue. I got the B1 in english, with the mention "niveau B2". I would say that my german level is "school +" and I have some basics in polish.</p>
+                
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="container-fluid mb-3">
+                            <div class="row">
+                                <p class="fs-4 langues">French</p>
+                            </div>
+                            <div class="row">
+                                <div class="container-fluid p-0 mx-0 border border-white bg-white align-self-center">
+                                    <p class="w-100 text-center bg-primary m-0">100%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="container-fluid mb-3">
+                            <div class="row">
+                                <p class="fs-4 langues">English</p>
+                            </div>
+                            <div class="row">
+                                <div class="container-fluid p-0 mx-0 border border-white bg-white align-self-center">
+                                    <p class="w-75 text-center bg-primary m-0">75% <span class="fs-8">(B1-niveau B2)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="container-fluid mb-3">
+                            <div class="row">
+                                <p class="fs-4 langues">German</p>
+                            </div>
+                            <div class="row">
+                                <div class="container-fluid p-0 mx-0 border border-white bg-white align-self-center">
+                                    <p class="w-50 text-center bg-primary m-0">50%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="container-fluid mb-3">
+                            <div class="row">
+                                <p class="fs-4 langues">Polish</p>
+                            </div>
+                            <div class="row">
+                                <div class="container-fluid p-0 mx-0 border border-white bg-white align-self-center">
+                                    <p class="w-25 text-center bg-primary m-0">25%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </section>
+
+        <!-- Section Diplomes -->
+        <section class="container-fluid mb-4 px-3" id="diplomes">
+            <div class="row my-4">
+                <h2 class="text-center">Qualifications and training</h2>
+            </div>
+        <!-- Partie diplômes -->
+            <div class="row mb-3">
+                <h3>Qualifications</h3>
+            </div>
+            <div class="container-fluid mb-3">
+                <ul>
+                    <li>December 2022 : First aider diploma level 3 - SanArena - Obtained </li>
+                    <li>July 2000 : Scientific baccalaureate - obtained</li>
+                </ul>
+            </div>
+        <!-- Partie Formation -->
+            <div class="row mb-3">
+                <h3>Training</h3>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-3">
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Web and mobile web developper</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>Skill&You <span class="bg-primary ms-2 text-white">In progress</span></h6>
+                                </div>
+                                <p class="card-text">Ongoing training to deepen my already acquired knowledge, learn the back-end and obtain a certification.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>master the fundamentals of Git and Github</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>Udemy.com - by Evan Boissonnot</h6>
+                                </div>
+                                <p class="card-text">Training taken in June 2024 to learn and master the basics of Git and Github.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Firebase 9 in a web project</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>Udemy.com - by Romuald Hansen</h6>
+                                </div>
+                                <p class="card-text">Training taken in April 2024 to be able to create websites and applications with a backend on Firebase.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Develop your first application with Angular (v14)</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>Udemy.com - by Evan Boissonnot</h6>
+                                </div>
+                                <p class="card-text">Training taken in January 2022 to be able to create websites and applications with the Angular framework.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Cutting and integrating a mock-up</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>Openclassrooms.com</h6>
+                                </div>
+                                <p class="card-text">Training taken in November 2020 to learn how to learn how to proceed methodically when developing from a graphic model.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Become a web developper</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>apprendre-a-coder.com</h6>
+                                </div>
+                                <p class="card-text">Training taken in June 2020 to deepen my knowledge of HTML and CSS and to learn Javascript.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Create your website with HTML5 and CSS3</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>Openclassroom.com</h6>
+                                </div>
+                                <p class="card-text">Training taken in January 2020 to re-learn HTML and learn CSS.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark border-primary h-100">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Learn to program in C# on .NET</h5>
+                                </div>
+                                <div class="card-subtitle mb-3 text-muted">
+                                    <h6>Openclassroom.com</h6>
+                                </div>
+                                <p class="card-text">Training taken in December 2017 to learn the C# basics in order to develop a "Windows Form" applicarion to make some of our everyday tasks easier in my actual job.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Expériences -->
+        <section  class="container-fluid mb-4 px-3" id="experiences">
+            <div class="row my-4">
+                <h2 class="text-center my-4">Experiences</h2>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="card bg-dark border-primary">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Angular frontend developer</h4>
+                        </div>
+                        <div class="card-subtitle mb-3">
+                            <h5>DevToBeCurious - <span class="bg-primary">09/2020 as of today</span></h5>
+                        </div>
+                        <ul class="mb-3">
+                            <li>Develop the trainer user interface to let him create content.</li>
+                            <li>Develop the interface to list the site's content.</li>
+                        </ul>
+                        <div class="container-fluid">
+                            <div class="row d-flex">
+                                <div class="col col-lg-1 text-center align-self-center">
+                                    <i class="bi-tools fs-4"></i>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#HTML</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#CSS</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#Angular</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#Bootstrap</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="card bg-dark border-primary">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Frontend developper</h4>
+                        </div>
+                        <div class="card-subtitle mb-3">
+                            <h5>Hett Clôtures & Portails - <span class="bg-primary">October 2022</span></h5>
+                        </div>
+                        <ul class="mb-3">
+                            <li>Website mock-up creation.</li>
+                            <li>Website development in accordance with the mock-up.</li>
+                            <li>Using Javascript to create image carroussels presentation.</li>
+                            <li>SEO optimisation and Google search engine optimisation.</li>
+                            <li>Creating the domain name and putting the website online.</li>
+                        </ul>
+                        <p class="mb-3"><i>Since then, the site has been taken over by an agency.</i></p>
+                        <div class="container-fluid">
+                            <div class="row d-flex">
+                                <div class="col col-lg-1 text-center align-self-center">
+                                    <i class="bi-tools fs-4"></i>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#HTML</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#CSS</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#Javascript</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#SEO</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="card bg-dark border-primary">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Javascript frontend developer</h4>
+                        </div>
+                        <div class="card-subtitle mb-3">
+                            <h5>Waven Consulting - <span class="bg-primary">June to August 2021</span></h5>
+                        </div>
+                        <ul class="mb-3">
+                            <li>Development of a mobile treasure hunt application for discovering our heritage.</li>
+                            <li>Creation of the application's mapping interface using OpenStreetMap.</li>
+                            <li>Implementation of geolocation parameter management using the Leaflet JS library.</li>
+                            <li>Creation of centres of interest (presentation images/videos, descriptive text, MCQs and GPS coordinates).</li>
+                            <li>Development of the management of the transition from one objective to another, the counting of points according to the answers to the MCQs and an interface for monitoring the treasure hunt's  progress.</li>
+                        </ul>
+                        <div class="container-fluid">
+                            <div class="row d-flex">
+                                <div class="col col-lg-1 text-center align-self-center">
+                                    <i class="bi-tools fs-4"></i>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#HTML</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#CSS</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#Javascript</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#Leaflet JS</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#OpenStreetMap</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="card bg-dark border-primary">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Frontend developper</h4>
+                        </div>
+                        <div class="card-subtitle mb-3">
+                            <h5>Ferme Zum Burahisla - <span class="bg-primary">April 2021</span></h5>
+                        </div>
+                        <ul class="mb-3">
+                            <li>Creating a responsive website to present the farm "Zum Burahisla".</li>
+                            <li>Facebook widget integration in order to show the last news of the farm on their website regularly.</li>
+                        </ul>
+                        <div class="container-fluid">
+                            <div class="row d-flex">
+                                <div class="col col-lg-1 text-center align-self-center">
+                                    <i class="bi-tools fs-4"></i>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#HTML</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#CSS</strong>
+                                </div>
+                                <div class="col col-lg-1 align-self-center">
+                                    <strong class="text-nowrap">#Javascript</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Loisirs -->
+        <section class="container-fluid mb-4 px-3" id="loisirs">
+            <div class="row my-4">
+                <h2 class="text-center my-4">Hobbies</h2>
+            </div>
+            <div class="mb-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
+                    <div class="col hobby-container p-1">
+                        <img src="../images/rando.jpeg" alt="photo randonnée" class="img-fluid w-100 rounded hobby">
+                        <div class="text-description">
+                            <h3 class="img-txt text-center">Mountain hiking</h3>
+                        </div>
+                    </div>
+                    <div class="col hobby-container p-1">
+                        <img src="../images/cine.jpg" alt="photo cinéma et séries" class="img-fluid w-100 rounded hobby">
+                        <div class="text-description">
+                            <h3 class="img-txt text-center">Movies and series</h3>
+                        </div>
+                    </div>
+                    <div class="col hobby-container p-1">
+                        <img src="../images/bricolage.jpg" alt="photo bricolage" class="img-fluid w-100 rounded hobby">
+                        <div class="text-description">
+                            <h3 class="img-txt text-center">DIY - Renovation </h3>
+                        </div>
+                    </div>
+                    <div class="col hobby-container p-1">
+                        <img src="../images/beer.jpg" alt="photo bières du monde" class="img-fluid w-100 rounded hobby">
+                        <div class="text-description">
+                            <h3 class="img-txt text-center">Beers of the world</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section class="container-fuid mb-4 px-3" id="contact">
+            <div class="row my-4">
+                <h2 class="text-center my-1">Contact</h2>
+            </div>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center main-social mb-3">
+                <div class="container-fluid d-flex flex-column align-items-center justify-content-center order-1 order-md-1 mb-3">
+                    <i class="bi bi-mailbox2 fs-3"></i>
+                    <a href="mailto:pierre.ctn@gmail.com" class="text-decoration-none text-white">pierre.ctn@gmail.com</a>
+                </div>
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-center order-3 order-md-2 main-social">
+                    <a href="#" class="d-inline-flex justify-content-center align-items-center flex-wrap text-decoration-none text-white overflow-hidden button">
+                            <div class="s-icon d-inline-flex justify-content-center align-items-center">
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                            <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="d-inline-flex justify-content-center align-items-center flex-wrap text-decoration-none text-white overflow-hidden button">
+                        <div class="s-icon d-inline-flex justify-content-center align-items-center">
+                            <i class="bi bi-github"></i>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="d-inline-flex justify-content-center align-items-center flex-wrap text-decoration-none text-white overflow-hidden button">
+                        <div class="s-icon d-inline-flex justify-content-center align-items-center">
+                            <i class="bi bi-twitter-x"></i>
+                        </div>
+                        <span>X (ex Twitter)</span>
+                    </a>
+                </div>
+                <div class="container-fluid d-flex flex-column align-items-center justify-content-center order-2 order-md-3 mb-3">
+                    <i class="bi bi-phone-vibrate"></i>
+                    <a href="tel:+33606060606" class="text-decoration-none text-white">+33 (0)6 06 06 06 06</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
